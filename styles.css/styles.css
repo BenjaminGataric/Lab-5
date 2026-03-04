@@ -1,16 +1,16 @@
-header, footer{
+header, footer {
     background-color: rgb(1, 68, 112);
     min-width: fit-content;
     color: rgb(174, 0, 255);
     border: medium solid rgb(0, 46, 83);
     border-radius: 10px;
 }
-h1{
+h1 {
     font-family: copperplate;
     font-style: oblique;
     text-shadow: 4px 4px black;
 }
-a{
+a {
     color: red;
 }
 
