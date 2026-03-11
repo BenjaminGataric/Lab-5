@@ -17,21 +17,23 @@
             <a class="website-links contact-link" href="contact.html">Contact Us!</a>
         </nav>
     </header>
-    <section class="title-container">
-        <div>
-            <label class="input-title" for="fname">Your Name:</label><br>
-            <label class="input-title" for="email">Your Email:</label><br>
-            <label class="input-title"  for="message">Your Message:</label><br>
+    <form>
+        <div class="input-container">
+            <label class="input-text" for="fname">Your Name:</label><br>
+            <input class="input-item" type="text" name="fname" id="fname"><br>
         </div>
-        <div>
-            <input class="input-text width" type="text" name="fname" id="fname"><br>
-            <input class="input-text width" type="text" name="email" id="email"><br>
-            <input class="input-text width" type="text" name="message" id="message"><br>
+        <div class="input-container">
+            <label class="input-text" for="email">Your Email:</label><br>
+            <input class="input-item" type="text" name="email" id="email"><br>
         </div>
-        <div>
-            <input class="input-button" type="button" onclick="alert('Message Sent!')"" value="Submit">
+        <div class="input-container">
+            <label class="input-text" for="message">Your Message:</label><br>
+            <input class="text-button input-item" type="text" name="message" id="message"><br>
         </div>
-    </section>
+        <div class="input-container">
+            <input class="button-input" type="button" onclick="alert('Message Sent!')"" value="Submit">
+        </div>
+    </form>
     <footer class="footer-container">
         <p class="footer-items">Created by Ben Gataric</p>
         <p class="footer-items">Follow us on <a href="#">social media!</a></p>

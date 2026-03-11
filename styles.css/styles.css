@@ -39,14 +39,24 @@ label {
 .footer-items {
     margin: 2px;
 }
-.title-container {
+.input-container {
     display: flex;
-    height: 200px;
-    font-size: 30px;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 3px;
 }
-.input-button {
-    width: 200px;
-    align-self: flex-end;
+.input-text {
+    font-size: 175%;
+}
+.input-item{
+    border: solid 3px black;
+}
+.text-button {
+    width: auto;
+    padding-bottom: 30px;
+}
+.button-input {
+    width: 15rem;
+    padding: 5px;
 }
