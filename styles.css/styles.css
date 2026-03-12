@@ -78,11 +78,12 @@ footer {
 .input-text {
     font-size: 175%;
 }
+.text-button {
+    height: 50px;
+}
 .input-item{
     border: solid 3px black;
-}
-.text-button {
-    width: auto;
+    min-width: 40rem;
     padding-bottom: 30px;
 }
 .button-input {
