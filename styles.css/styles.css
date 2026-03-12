@@ -1,3 +1,4 @@
+/* Main elements */ 
 img {
     max-width: 100%;
     height: 250px;
@@ -7,8 +8,8 @@ label {
 }
 header {
     padding: 5px;
-    height: fit-content;
-    width: 130rem;
+    max-height: 100%;
+    max-width: 100%;
 }
 header, footer{
     background-color: rgb(47, 160, 47);
@@ -21,11 +22,19 @@ footer {
     width: 95%;
     text-align: center;
 }
+/* Home page paragraphs*/
 .home {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: baseline;
+}
+.home h2 {
+    font-size: 30px;
+    color: red;
+}
+.home p {
+    font-size: 20px;
+    color: rgb(48, 47, 47);
 }
 .header-container {
     display: flex;
@@ -78,13 +87,10 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 3px;
+    margin-bottom: 10px;
 }
 .input-text {
     font-size: 175%;
-}
-.text-button {
-    height: 50px;
 }
 .input-item{
     border: solid 3px black;
@@ -92,7 +98,9 @@ footer {
     padding-bottom: 30px;
 }
 .button-input {
+    font-size: 30px;
     margin-top: 10rem;
     width: 15rem;
     padding: 5px;
+    height: fit-content;
 }
