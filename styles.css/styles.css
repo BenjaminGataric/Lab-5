@@ -21,7 +21,12 @@ footer {
     width: 95%;
     text-align: center;
 }
-
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .header-container {
     display: flex;
 }
